@@ -20,7 +20,9 @@ roslaunch profi_serv_a start_configure_a.launch
 ### Required libraries
 
 ```
+string
 time
+os
 tqdm
 os
 random

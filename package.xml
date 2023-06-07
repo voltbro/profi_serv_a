@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>profi_serv_a</name>
-  <version>0.0.5</version>
+  <version>1.0.0</version>
   <description>The profi_serv_a package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->

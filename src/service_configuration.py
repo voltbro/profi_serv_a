@@ -5,10 +5,9 @@ import string
 import time
 import os
 import random
-import tqdm
 
-configuration_number = "0x05260"
-version = "0.0.5"
+configuration_number = "1xM18650"
+version = "1.0.0"
 
 print(os.system("ls -la"))
 
@@ -31,7 +30,7 @@ time.sleep(0.5)
 print("Service package 1: start configuration ")
 time.sleep(0.5)
 
-for i in tqdm.tqdm(range(100), ascii=True, desc="System check"):
+for i in tqdm.tqdm(range(3000), ascii=True, desc="System check"):
     time.sleep(0.001)
 
 print("")
