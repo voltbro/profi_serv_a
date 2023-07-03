@@ -3,7 +3,7 @@
 ### Installation
 ```
 cd ~/catkin_ws/src/
-git clone https://github.com/NikolayIvanovWS/profi_serv_a.git
+git clone https://github.com/voltbro/profi_serv_a.git
 ```
 ### Compilation
 ```
