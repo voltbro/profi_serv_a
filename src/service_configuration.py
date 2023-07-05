@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-
+# -*- coding: utf-8 -*- 
 
 import string
 import time
 import os
 import random
+import tqdm
 
 configuration_number = "1xM18650"
 version = "1.0.0"
@@ -19,11 +20,11 @@ def print_random_str(l):
     
     return (' ')
 
-print(print_random_str(40))
-print(print_random_str(40))
-print(print_random_str(40))
-print(print_random_str(40))
-print(print_random_str(40))
+#print(print_random_str(40))
+#print(print_random_str(40))
+#print(print_random_str(40))
+#print(print_random_str(40))
+#print(print_random_str(40))
 
 print("Service package 1: ver. {}".format(version))
 time.sleep(0.5)
