@@ -5,6 +5,7 @@ import string
 import time
 import os
 import random
+import tqdm
 
 configuration_number = "1xM18650"
 version = "1.0.0"
